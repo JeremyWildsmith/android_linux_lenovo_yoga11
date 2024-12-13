@@ -1,6 +1,0 @@
-The following commands are used to create vbmeta key for com.android.runtime
-
-openssl genrsa -out com.android.runtime.pem 4096
-../../external/avb/avbtool extract_public_key --key com.android.runtime.pem --output com.android.runtime.avbpubkey
-openssl req -new -x509 -key com.android.runtime.pem -out com.android.runtime.x509.pem -days 10000 -subj '/C=CN/ST=ShangHai/L=ShangHai/O=Lenovo/OU=Tablet/CN=Android/emailAddress=android@android.com'
-openssl pkcs8 -in com.android.runtime.pem -topk8 -outform DER -out com.android.runtime.pk8 -nocrypt
