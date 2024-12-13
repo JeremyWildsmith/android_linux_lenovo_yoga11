@@ -1,0 +1,1 @@
+cmd_kernel/printk/built-in.o :=   rm -f kernel/printk/built-in.o; /home/jeremy/j706f-port/porting/yt-j706f_opensource_yt-j706f_s200107_220508_row.tar/kernel-4.14/../prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9.1/bin/aarch64-linux-androidkernel-ar rcSTPD kernel/printk/built-in.o kernel/printk/printk.o kernel/printk/printk_safe.o 
