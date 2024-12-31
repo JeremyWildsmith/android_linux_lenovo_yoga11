@@ -1,1 +1,0 @@
-cmd_arch/arm64/crypto/aes-ce-blk.o :=  rm -f arch/arm64/crypto/aes-ce-blk.o; /home/jeremy/j706f-port/porting/yt-j706f_opensource_yt-j706f_s200107_220508_row.tar/kernel-4.14/../prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9.1/bin/aarch64-linux-androidkernel-ar rcSTPD arch/arm64/crypto/aes-ce-blk.o arch/arm64/crypto/aes-glue-ce.o arch/arm64/crypto/aes-ce.o 
